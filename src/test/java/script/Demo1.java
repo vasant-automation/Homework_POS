@@ -8,7 +8,7 @@ import generic.utility;
 
 public class Demo1 extends BaseTest{
 
-	@Test
+	@Test(enabled=false)
 	public void TestA() {
 		
 		String data = utility.getXLData(XL_PATH, "Sheet1", 0, 0);

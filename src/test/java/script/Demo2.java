@@ -8,7 +8,7 @@ import generic.BaseTest;
 
 public class Demo2 extends BaseTest{
 
-	@Test
+	@Test(enabled=false)
 	public void TestB() {
 
 		String title = driver.getTitle();

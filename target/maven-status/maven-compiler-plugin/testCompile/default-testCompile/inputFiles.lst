@@ -1,4 +1,8 @@
-D:\Automation\Bhanu Training\Selenium\workspace2\Homework_POS\src\test\java\generic\BaseTest.java
-D:\Automation\Bhanu Training\Selenium\workspace2\Homework_POS\src\test\java\generic\utility.java
-D:\Automation\Bhanu Training\Selenium\workspace2\Homework_POS\src\test\java\script\Demo1.java
-D:\Automation\Bhanu Training\Selenium\workspace2\Homework_POS\src\test\java\script\Demo2.java
+C:\Users\Admin\git\Homework_POS2\src\test\java\generic\BaseTest.java
+C:\Users\Admin\git\Homework_POS2\src\test\java\generic\commonVar.java
+C:\Users\Admin\git\Homework_POS2\src\test\java\generic\utility.java
+C:\Users\Admin\git\Homework_POS2\src\test\java\page\HomePage.java
+C:\Users\Admin\git\Homework_POS2\src\test\java\page\LoginPage.java
+C:\Users\Admin\git\Homework_POS2\src\test\java\script\Demo1.java
+C:\Users\Admin\git\Homework_POS2\src\test\java\script\Demo2.java
+C:\Users\Admin\git\Homework_POS2\src\test\java\script\ValidLogin.java

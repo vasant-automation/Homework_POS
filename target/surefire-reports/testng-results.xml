@@ -1,117 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-10-23T07:26:43 IST" name="Suite" finished-at="2024-10-23T07:27:50 IST" duration-ms="67443">
+  <suite started-at="2024-10-26T07:27:29 IST" name="Suite" finished-at="2024-10-26T07:28:29 IST" duration-ms="59424">
     <groups>
     </groups>
-    <test started-at="2024-10-23T07:26:43 IST" name="Test1" finished-at="2024-10-23T07:27:50 IST" duration-ms="67443">
-      <class name="script.Demo2">
-        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String)[pri:0, instance:script.Demo2@18078bef]" started-at="2024-10-23T07:27:28 IST" name="preCondition" finished-at="2024-10-23T07:27:48 IST" duration-ms="19184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.Demo2.TestB()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qa.properties]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="TestB()[pri:0, instance:script.Demo2@18078bef]" started-at="2024-10-23T07:27:48 IST" name="TestB" finished-at="2024-10-23T07:27:48 IST" duration-ms="164" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at script.Demo2.TestB(Demo2.java:16)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestB -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.Demo2@18078bef]" started-at="2024-10-23T07:27:48 IST" name="postCondition" finished-at="2024-10-23T07:27:50 IST" duration-ms="2118" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TestB status=FAILURE method=Demo2.TestB()[pri:0, instance:script.Demo2@18078bef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.Demo2 -->
+    <test started-at="2024-10-26T07:27:29 IST" name="Test1" finished-at="2024-10-26T07:28:29 IST" duration-ms="59424">
       <class name="script.Demo1">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:script.Demo1@49e53c76]" started-at="2024-10-23T07:26:42 IST" name="initReport" finished-at="2024-10-23T07:26:43 IST" duration-ms="485" status="PASS">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:script.Demo1@2a3b5b47]" started-at="2024-10-26T07:27:28 IST" name="initReport" finished-at="2024-10-26T07:27:29 IST" duration-ms="1105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String)[pri:0, instance:script.Demo1@49e53c76]" started-at="2024-10-23T07:26:43 IST" name="preCondition" finished-at="2024-10-23T07:27:19 IST" duration-ms="36548" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.Demo1.TestA()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qa.properties]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="TestA()[pri:0, instance:script.Demo1@49e53c76]" started-at="2024-10-23T07:27:19 IST" name="TestA" finished-at="2024-10-23T07:27:26 IST" duration-ms="7082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestA -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.Demo1@49e53c76]" started-at="2024-10-23T07:27:27 IST" name="postCondition" finished-at="2024-10-23T07:27:28 IST" duration-ms="1943" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TestA status=SUCCESS method=Demo1.TestA()[pri:0, instance:script.Demo1@49e53c76] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:script.Demo1@49e53c76]" started-at="2024-10-23T07:27:51 IST" name="generateReport" finished-at="2024-10-23T07:27:51 IST" duration-ms="976" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:script.Demo1@2a3b5b47]" started-at="2024-10-26T07:28:29 IST" name="generateReport" finished-at="2024-10-26T07:28:30 IST" duration-ms="1507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- script.Demo1 -->
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String)[pri:0, instance:script.ValidLogin@145f66e3]" started-at="2024-10-26T07:27:29 IST" name="preCondition" finished-at="2024-10-26T07:28:22 IST" duration-ms="53164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.ValidLogin.TestValidLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="TestValidLogin()[pri:1, instance:script.ValidLogin@145f66e3]" started-at="2024-10-26T07:28:22 IST" name="TestValidLogin" finished-at="2024-10-26T07:28:26 IST" duration-ms="3914" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestValidLogin -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@145f66e3]" started-at="2024-10-26T07:28:26 IST" name="postCondition" finished-at="2024-10-26T07:28:29 IST" duration-ms="2254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestValidLogin status=SUCCESS method=ValidLogin.TestValidLogin()[pri:1, instance:script.ValidLogin@145f66e3] output=Home Page is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
